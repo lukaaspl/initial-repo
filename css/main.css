@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 4.5rem;
+}
+
+p {
+    max-width: 500px;
+    line-height: 1.4;
+    color: #333;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (max-width: 500px) {
+
+    html,
+    body {
+        font-size: 8px;
+    }
+
+    img {
+        width: 128px;
+    }
+}
